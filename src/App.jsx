@@ -5,11 +5,14 @@ import LandingPage from './Pages/LandingPage'
 function App() {
 
   return (
-    <Router>
+    <body>
+       <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage/>}/>
       </Routes>
     </Router>
+    </body>
+   
   )
 }
 
