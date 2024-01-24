@@ -6,14 +6,14 @@ import Team from "../components/LandingPage/Team"
 import Footer from "../components/LandingPage/Footer"
 
 export default function LandingPage() {
-  return (
-    <div>
-        <Navbar/>
-        <Hero/>
-        <AboutUs/>
-        <Events/>
-        <Team/>
-        <Footer/>
-    </div>
-  )
+    return (
+        <div className="py-36">
+            <Navbar />
+            <Hero />
+            <AboutUs />
+            <Events />
+            <Team />
+            <Footer />
+        </div>
+    )
 }
