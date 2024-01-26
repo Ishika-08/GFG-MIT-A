@@ -1,4 +1,69 @@
-body{
-    background-color: #01021E;
-    background-image: url("/bg.png")
+body {
+  background-color: #01021e;
+}
+
+.neon-border {
+  border-width: 1.2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #fff, #4eff3f) 1;
+  padding: 4px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.neon-border:hover {
+  border-image: linear-gradient(to left, #fff, #4eff3f) 1;
+}
+
+.transparent-bg {
+  background: rgba(64, 64, 64, 0.3);
+}
+
+.gradient-to-text {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-with-shadow {
+  border: 1px solid rgba(64, 64, 64, 0.5);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 5px rgba(187, 155, 255, 0.15);
+}
+
+.transparent-bg-about-section {
+  background: rgba(11, 27, 36, 0.8);
+  opacity: 0.5;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px 5px rgba(255, 255, 255, 0.5);
+}
+
+.hero-button-1 {
+  border: 2px solid #4eff3f;
+  border-radius: 10px;
+  border-bottom-right-radius: 100px;
+  color: white;
+  transition: 0.3s;
+}
+
+.hero-button-1:hover {
+  border: 2px solid #fff;
+}
+
+.hero-button-2 {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  border-top-left-radius: 100px;
+  background: #4eff3f;
+  color: black;
+  transition: 0.3s;
+}
+
+.hero-button-2:hover {
+  background: #fff;
+}
+
+.navbar-bg {
+  background-color: #01021e;
+  z-index: 1000;
 }

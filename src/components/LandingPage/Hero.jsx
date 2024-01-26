@@ -1,29 +1,42 @@
-import React from 'react'
+import React from "react";
 
-export default function Hero() {
+const Hero = () => {
   return (
-    <section className='flex justify-center flex-wrap items-center max-w-6xl mx-auto'>
-      <div className='lg:w-[55%]'>
-      <h1 className='font-bold py-5 text-3xl text-white'>
-          WELCOME TO<br/>
-          <span className='text-green-500'>GEEKSFORGEEKS</span> STUDENT<br/>
-          CHAPTER<br/>
-          OF MIT CH.SAMBHAJINAGAR
-      </h1>
-      <div>
-        <button type="button" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transform skew-x-12 mr-2">
-        JOIN OUR COMMUNITY
-        </button>
-        <button type="button" 
-        className='bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-500 hover:border-transparent rounded transform skew-x-12'>
-        REGISTER FOR EVENT
-        </button>
-      </div>
-      </div>
+    <header>
+      <div className="container px-6 py-16 mx-auto mt-10">
+        <div className="items-center lg:flex justify-center">
+          <div className="w-full lg:w-1/3">
+            <div className="lg:max-w-lg">
+              <h1 className="text-4xl font-semibold text-white lead ">
+                WELCOME TO <br />
+                <span className="text-[#4eff3f] ">GEEKSFORGEEKS </span> STUDENT
+                CHAPTER
+                <br />
+                OF MIT CH.SAMBHAJINAGAR <br />
+              </h1>
 
-      <div className='lg:w-[35%]'>
-        <img src="/hero.png" alt="profile" className='w-full'/>
+              <div className="flex flex-col lg:flex-row " >
+                <button className="hero-button-1 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
+                  Join Our Community
+                </button>
+
+                <button className="ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
+                  Register For Event
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+            <img
+              className="w-1/2 h-full lg:max-w-3xl"
+              src="./assets/heroImg.svg"
+              alt="Catalogue-pana.svg"
+            />
+          </div>
+        </div>
       </div>
-    </section>
-  )
-}
+    </header>
+  );
+};
+
+export default Hero;
