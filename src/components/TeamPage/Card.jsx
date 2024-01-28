@@ -4,22 +4,22 @@ import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 export default function Card({ele}) {
   return (
-    <div className="flex flex-col border-with-shadow p-4">
+    <div className="flex flex-col items-center justify-between border-with-shadow p-4">
     {/* Avatar */}
     <a href="#" className="mx-auto">
       <img
-        className="w-60 h-[210px] rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+        className="w-52 h-[210px] rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
         src={ele.photourl}
       />
     </a>
     {/* Details */}
     <div className="text-center mt-6">
       {/* Name */}
-      <h1 className="text-slate-200 text-xl font-bold mb-1">
+      <h1 className="text-slate-200 text-lg font-bold mb-1">
         {ele.name}
       </h1>
       {/* Title */}
-      <div className="text-slate-400 font-light mb-2">
+      <div className="text-slate-400  text-basefont-light mb-2">
         {ele.designation}
       </div>
       {/* Social Icons */}

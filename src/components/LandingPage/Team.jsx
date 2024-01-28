@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaArrowRight, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const TeamMembersArray = [
   {
@@ -25,6 +25,34 @@ const TeamMembersArray = [
   },
   {
     id: 4,
+    name: "Ishika Ranajan",
+    designation: "Developer at GFG-MITA",
+    photourl:
+      "https://images.unsplash.com/photo-1635003913011-95971abba560?fit=clamp&w=400&h=400&q=80",
+  },
+  {
+    id: 5,
+    name: "Rohit Bansode",
+    designation: "Head at GFG-MITA",
+    photourl:
+      "https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?fit=clamp&w=400&h=400&q=80",
+  },
+  {
+    id: 6,
+    name: "Yash Bansode",
+    designation: "Vice-Head at GFG-MITA",
+    photourl:
+      "https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80",
+  },
+  {
+    id: 7,
+    name: "Nilesh Mankape",
+    designation: "Designer at GFG-MITA",
+    photourl:
+      "https://images.unsplash.com/photo-1634193295627-1cdddf751ebf?fit=clamp&w=400&h=400&q=80",
+  },
+  {
+    id: 8,
     name: "Ishika Ranajan",
     designation: "Developer at GFG-MITA",
     photourl:
@@ -112,7 +140,18 @@ export default function Team() {
                 );
               })}
             </div>
+
+
+
+
           </div>
+
+          <div className="w-full flex items-center justify-center mt-5" >
+                <a href="/team" className="p-5 box-shadow-for-Arrow" >
+                  <FaArrowRight className="text-[#4eff3f] text-2xl" />
+                </a>
+          </div>
+
         </div>
       </div>
     </div>

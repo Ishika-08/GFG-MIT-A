@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <a
             href="#"
-            className="bg-[#4eff3f] text-black rounded-lg px-5 py-3 text-sm  font-bold tracking-wider uppercase"
+            className="hidden md:block  bg-[#4eff3f] text-black rounded-lg px-5 py-3 text-xs  font-bold tracking-wider uppercase"
           >
             Join Our Community
           </a>
@@ -58,14 +58,6 @@ const Navbar = () => {
                 aria-current="page"
               >
                 Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-white rounded  md:hover:bg-transparent md:hover:text-[#4eff3f] md:p-0 "
-              >
-                About
               </a>
             </li>
             <li>

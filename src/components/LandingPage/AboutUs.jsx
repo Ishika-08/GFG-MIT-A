@@ -12,8 +12,10 @@ const AboutUs = () => {
           About Us
         </h1>
         <p className="text-base md:text-lg">
-          Dive into the binary brilliance of our tech community, where every
-          code unlocks a world of innovation!
+          Welcome to Geeks for Geeks Student Chapter at MITA - a vibrant
+          community dedicated to fueling the passion for technology and coding
+          among MITA students. As tech enthusiasts, we come together to explore,
+          learn, and innovate.
         </p>
       </div>
 

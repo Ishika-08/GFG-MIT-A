@@ -4,15 +4,17 @@ import AboutUs from "../components/LandingPage/AboutUs";
 import Events from "../components/LandingPage/Events";
 import Team from "../components/LandingPage/Team";
 import Footer from "../components/LandingPage/Footer";
+import Carasousel from "../components/LandingPage/Carasousel";
 
 export default function LandingPage() {
   return (
-    <>
-      <Navbar/>
-      <Hero/>
+    <div>
+      <Navbar />
+      <Hero />
       <AboutUs />
+      <Carasousel />
       <Team />
       <Footer />
-    </>
+    </div>
   );
 }

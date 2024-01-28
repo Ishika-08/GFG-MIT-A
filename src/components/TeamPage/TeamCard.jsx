@@ -1,25 +1,27 @@
 import Card from "./Card";
 
-import React from 'react'
+import React from "react";
 
-export default function TeamCard({Array, Team}) {
+export default function TeamCard({ Array, Team }) {
   return (
-    <div className="flex flex-wrap justify-center m-10 border-with-shadow p-4 max-w-6xl">
-    <div className="flex flex-wrap justify-center items-center w-full md:w-6/12 lg:w-4/12 mb-6 px-6 sm:px-6 lg:px-4e">
-    <h1 className="text-white text-6xl">
-        {Team}
-    </h1>
-    </div>
-    {Array.map((ele) => {
-      return (
-        <div
-          className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4e"
-          key={ele.id}
-        >
-         <Card ele={ele}/>
+    <>
+      <div className="m-10  border-with-shadow-2 py-8" >
+        <h1 className="w-full uppercase text-center text-4xl font-bold gradient-to-text-with-greenAndWhite">
+          {Team}
+        </h1>
+        <div className="relative flex flex-wrap justify-center p-8 max-w-6xl">
+          {Array.map((ele) => {
+            return (
+              <div
+                className=" w-full md:w-6/12 lg:w-1/3 my-8 px-6 sm:px-6 lg:px-4e"
+                key={ele.id}
+              >
+                <Card ele={ele} />
+              </div>
+            );
+          })}
         </div>
-      );
-    })}
-</div>
-  )
+      </div>
+    </>
+  );
 }

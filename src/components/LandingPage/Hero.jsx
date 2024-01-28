@@ -20,7 +20,7 @@ const Hero = () => {
                   Join Our Community
                 </button>
 
-                <button className="ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
+                <button  className="opacity-50 ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
                   Register For Event
                 </button>
               </div>
