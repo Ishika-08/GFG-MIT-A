@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
-import TeamPage from "./Pages/TeamPage"
+import TeamPage from "./Pages/TeamPage";
+import EventsPage from "./Pages/EventsPage";
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
-          <Route path="/team" element={<TeamPage/>}/>
+          <Route path="/team" element={<TeamPage />} />
+          <Route path="/events" element={<EventsPage />} />
         </Routes>
       </Router>
     </body>
