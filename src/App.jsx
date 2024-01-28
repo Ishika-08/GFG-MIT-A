@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./Pages/LandingPage";
+import TeamPage from "./Pages/TeamPage"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
+          <Route path="/team" element={<TeamPage/>}/>
         </Routes>
       </Router>
     </body>
