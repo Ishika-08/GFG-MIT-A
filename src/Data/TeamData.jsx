@@ -11,7 +11,7 @@ export const MainArray = [
         name: "Yashwant P. Nidhonkar",
         designation: "Vice - Chairperson ",
         photourl:
-          "https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80",
+          "/TeamMembers/Main/Yashwant-Nidhonkar.jpeg",
       },
   ]
 
