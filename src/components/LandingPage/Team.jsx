@@ -1,64 +1,7 @@
 import React from "react";
 import { FaArrowRight, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { TeamMembersArray } from "../../Data/TeamData";
 
-const TeamMembersArray = [
-  {
-    id: 1,
-    name: "Rohit Bansode",
-    designation: "Head at GFG-MITA",
-    photourl:
-      "https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?fit=clamp&w=400&h=400&q=80",
-  },
-  {
-    id: 2,
-    name: "Yash Bansode",
-    designation: "Vice-Head at GFG-MITA",
-    photourl:
-      "https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80",
-  },
-  {
-    id: 3,
-    name: "Nilesh Mankape",
-    designation: "Designer at GFG-MITA",
-    photourl:
-      "https://images.unsplash.com/photo-1634193295627-1cdddf751ebf?fit=clamp&w=400&h=400&q=80",
-  },
-  {
-    id: 4,
-    name: "Ishika Ranajan",
-    designation: "Developer at GFG-MITA",
-    photourl:
-      "https://images.unsplash.com/photo-1635003913011-95971abba560?fit=clamp&w=400&h=400&q=80",
-  },
-  {
-    id: 5,
-    name: "Rohit Bansode",
-    designation: "Head at GFG-MITA",
-    photourl:
-      "https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?fit=clamp&w=400&h=400&q=80",
-  },
-  {
-    id: 6,
-    name: "Yash Bansode",
-    designation: "Vice-Head at GFG-MITA",
-    photourl:
-      "https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80",
-  },
-  {
-    id: 7,
-    name: "Nilesh Mankape",
-    designation: "Designer at GFG-MITA",
-    photourl:
-      "https://images.unsplash.com/photo-1634193295627-1cdddf751ebf?fit=clamp&w=400&h=400&q=80",
-  },
-  {
-    id: 8,
-    name: "Ishika Ranajan",
-    designation: "Developer at GFG-MITA",
-    photourl:
-      "https://images.unsplash.com/photo-1635003913011-95971abba560?fit=clamp&w=400&h=400&q=80",
-  },
-];
 
 export default function Team() {
   return (
@@ -76,8 +19,7 @@ export default function Team() {
                 </h1>
                 {/* Description */}
                 <p className="text-slate-100 text-lg font-light">
-                  With over 100 years of combined experience, we've got a
-                  well-seasoned team at the helm.
+                "Coding Dreams, Building Futures: Unleashing Potential with GFG Student Chapter Team!"
                 </p>
               </div>
             </div>

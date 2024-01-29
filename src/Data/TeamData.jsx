@@ -1,3 +1,63 @@
+export const TeamMembersArray = [
+  {
+    id: 1,
+    name: "Rohit Bansode",
+    designation: "Head at GFG-MITA",
+    photourl:
+      "/TeamMembers/Main/Rohit-Bansode.jpg",
+  },
+  {
+    id: 2,
+    name: "Yashwant P. Nidhonkar",
+    designation: "Vice - Chairperson ",
+    photourl:
+      "/TeamMembers/Main/Yashwant-Nidhonkar.jpeg",
+  },
+  {
+    id: 3,
+    name: "Kartik Hajbe",
+    designation: "Social Media Team Lead",
+    photourl:
+      "/TeamMembers/Social-media/Kartik-Hajbe.jpg",
+  },
+  {
+    id: 4,
+    name: "Ishika Ranjan",
+    designation: "Technical Team Lead",
+    photourl:
+      "/TeamMembers/Tech/Ishika-Ranjan.jpeg",
+  },
+  {
+    id: 5,
+    name: "Nilesh Mankape",
+    designation: "Design and Content Team Lead",
+    photourl:
+    "https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80",
+  },
+  {
+    id: 6,
+    name: "Lisha Mehta",
+    designation: "PR & Outreach Team Lead",
+    photourl:
+      "/TeamMembers/PR/Lisha-Mehta.jpeg",
+  },
+  {
+    id: 7,
+    name: "Komal Sharma",
+    designation: "Event Team Lead",
+    photourl:
+      "/TeamMembers/Event/Komal-Sharma.jpeg",
+  },
+  {
+    id: 8,
+    name: "Rutuja Tamboli",
+    designation: "Marketing Team Lead",
+    photourl:
+      "/TeamMembers/Marketing/Rutuja-Tamboli.jpeg",
+  },
+]
+
+
 export const MainArray = [
     {
         id: 1,

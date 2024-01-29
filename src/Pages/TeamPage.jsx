@@ -6,7 +6,7 @@ import TeamCard from "../components/TeamPage/TeamCard";
 
 export default function Team() {
   return (
-    <div className="flex items-center justify-center min-h-screen my-10">
+    <div className="flex items-center justify-center min-h-screen mt-[80px]">
       <div className="flex flex-col">
         <div className="flex flex-col mt-8">
           {/* Meet the Team */}
@@ -20,8 +20,7 @@ export default function Team() {
                 </h1>
                 {/* Description */}
                 <p className="text-slate-100 text-lg font-light">
-                  With over 100 years of combined experience, we've got a
-                  well-seasoned team at the helm.
+                "Coding Dreams, Building Futures: Unleashing Potential with GFG Student Chapter Team!"
                 </p>
               </div>
             </div>

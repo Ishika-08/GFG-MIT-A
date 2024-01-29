@@ -9,7 +9,6 @@ import Carasousel from "../components/LandingPage/Carasousel";
 export default function LandingPage() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <AboutUs />
       <Carasousel />

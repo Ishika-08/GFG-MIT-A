@@ -12,7 +12,7 @@ const Carasousel = () => {
         {/* Item 1 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="./c-1.jpg"
+            src="/Events/Picture1.jpg"
             className="absolute block object-contain w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
@@ -20,7 +20,7 @@ const Carasousel = () => {
         {/* Item 2 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="./c-2.jpg"
+            src="/Events/poster.jpg"
             className="absolute block object-contain w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
