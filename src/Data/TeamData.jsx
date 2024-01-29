@@ -218,15 +218,8 @@ export const MainArray = [
         "https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80",
       },
       {
-        id: 2,
-        name: " Sakshi Selmokar",
-        designation: "Design and Content Team Member",
-        photourl:
-        "/TeamMembers/Design/Sakshi-Selmokar.jpg",
-      },
-      {
         id: 3,
-        name: ". Prasad Dinnapurkar",
+        name: "Prasad Dinnapurkar",
         designation: "Design and Content Team Member",
         photourl:
           "/TeamMembers/Design/Prasad-Dinnapurkar.jpeg",
