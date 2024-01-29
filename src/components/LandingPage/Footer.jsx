@@ -7,6 +7,7 @@ import {
   FaPhoneAlt,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { FaTwitter, FaX } from "react-icons/fa6";
 
 import { HiOfficeBuilding } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
@@ -53,7 +54,7 @@ const Footer = () => {
               Navigation links
             </h6>
             <p className="mb-4">
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+              <a href="/events" className="text-neutral-600 dark:text-neutral-200">
                 Events
               </a>
             </p>
@@ -63,7 +64,7 @@ const Footer = () => {
               </a>
             </p>
             <p className="mb-4">
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+              <a href="/team" className="text-neutral-600 dark:text-neutral-200">
                 Team
               </a>
             </p>
@@ -80,12 +81,18 @@ const Footer = () => {
             </h6>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <HiOfficeBuilding className="text-2xl mr-2" />
-              MIT-A , Chatrapati Sambhaji Nagar
+              MIT-A , Chhatrapati SambhajiNagar
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdEmail className="text-2xl mr-2" />
-              gfg-mita@gmail.com
+              gfg.mita@gmail.com
             </p>
+            <a
+              href="#"
+              className="hidden md:block  bg-[#4eff3f] text-black rounded-lg px-5 py-3 text-xs  font-bold tracking-wider uppercase"
+            >
+              Join Our Community
+            </a>
           </div>
         </div>
       </div>
@@ -102,7 +109,7 @@ const Footer = () => {
             <FaInstagram />
           </a>
           <a href="#" className="mr-4 text-xl neon-border">
-            <FaReddit />
+            <FaX />
           </a>
           <a href="#" className="mr-4 text-xl neon-border">
             <FaDiscord />

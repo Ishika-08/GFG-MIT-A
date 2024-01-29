@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/team"
                 className="block py-2 px-3 text-white rounded  md:hover:bg-transparent md:hover:text-[#4eff3f] md:p-0 "
               >
                 Team
@@ -70,7 +70,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/events"
                 className="block py-2 px-3 text-white rounded  md:hover:bg-transparent md:hover:text-[#4eff3f] md:p-0 "
               >
                 Events

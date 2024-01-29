@@ -12,6 +12,8 @@ body {
 }
 .neon-border:hover {
   border-image: linear-gradient(to left, #fff, #4eff3f) 1;
+  /* rgba(78, 255, 63,.8) */
+  /* 4fff3f90 */
 }
 
 .transparent-bg {
