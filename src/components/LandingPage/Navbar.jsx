@@ -54,7 +54,7 @@ const Navbar = () => {
             <li>
               <a
                 href="/"
-                className="block py-2 px-3 text-white  rounded md:bg-transparent md:text-[#4eff3f] md:p-0 "
+                className="block py-2 px-3 text-white  rounded md:bg-transparent md:hover:text-[#4eff3f] md:p-0 "
                 aria-current="page"
               >
                 Home

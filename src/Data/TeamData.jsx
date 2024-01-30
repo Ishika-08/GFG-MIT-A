@@ -14,7 +14,7 @@ export const TeamMembersArray = [
         name: "Yashwant P. Nidhonkar",
         designation: "Vice - Chairperson ",
         photourl:
-            "/TeamMembers/Main/Yashwant-Nidhonkar.jpeg",
+            "/TeamMembers/Main/Yashwant-Nidhonkar.jpg",
         linkedin: "",
         twitter: "",
         instagram: "",
@@ -64,7 +64,7 @@ export const TeamMembersArray = [
         name: "Komal Sharma",
         designation: "Event Team Lead",
         photourl:
-            "/TeamMembers/Event/Komal-Sharma.jpeg",
+            "/TeamMembers/Event/Komal-Sharma.jpg",
         linkedin: "",
         twitter: "",
         instagram: "",
@@ -74,7 +74,7 @@ export const TeamMembersArray = [
         name: "Rutuja Tamboli",
         designation: "Marketing Team Lead",
         photourl:
-            "/TeamMembers/Marketing/Rutuja-Tamboli.jpeg",
+            "/TeamMembers/Marketing/Rutuja-Tamboli.jpg",
         linkedin: "https://www.linkedin.com/in/rutuja-tamboli-92a424258",
         twitter: "",
         instagram: "https://www.instagram.com/rutu_tamboli_?igsh=MWd5dDg2aHgzcnh3bw== https://www.linkedin.com/in/rutuja-tamboli-92a424258",
