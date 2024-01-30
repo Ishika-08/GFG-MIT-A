@@ -1,6 +1,10 @@
 import React from "react";
 
 const Hero = () => {
+  const handleButtonClick = () => {
+    window.location.href = 'https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ';
+  };
+
   return (
     <header>
       <div className="container px-6 py-16 mx-auto mt-10">
@@ -12,17 +16,19 @@ const Hero = () => {
                 <span className="text-[#4eff3f] ">GEEKSFORGEEKS </span> STUDENT
                 CHAPTER
                 <br />
-                OF MIT CH.SAMBHAJINAGAR <br />
+                OF MIT CHH. SAMBHAJINAGAR <br />
               </h1>
 
-              <div className="flex flex-col lg:flex-row " >
-                <button className="hero-button-1 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
+              <div className="flex flex-col lg:flex-row" >
+                <a 
+                className="hero-button-1 px-5 py-2 mt-6 text-sm tracking-wider uppercase"
+                href="https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ">
                   Join Our Community
-                </button>
+                </a>
 
-                <button  className="opacity-50 ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
+                <a  className="opacity-50 ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
                   Register For Event
-                </button>
+                </a>
               </div>
             </div>
           </div>

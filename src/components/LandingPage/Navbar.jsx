@@ -16,7 +16,7 @@ const Navbar = () => {
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <a
-            href="#"
+            href="https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ"
             className="hidden md:block  bg-[#4eff3f] text-black rounded-lg px-5 py-3 text-xs  font-bold tracking-wider uppercase"
           >
             Join Our Community

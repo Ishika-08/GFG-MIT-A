@@ -88,7 +88,7 @@ const Footer = () => {
               gfg.mita@gmail.com
             </p>
             <a
-              href="#"
+              href="https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ"
               className="hidden md:block  bg-[#4eff3f] text-black rounded-lg px-5 py-3 text-xs  font-bold tracking-wider uppercase"
             >
               Join Our Community
@@ -105,13 +105,13 @@ const Footer = () => {
           <a href="#" className="mr-4 text-xl neon-border">
             <FaTelegramPlane />
           </a>
-          <a href="#" className="mr-4 text-xl neon-border">
+          <a href="https://www.instagram.com/gfg.mita/" className="mr-4 text-xl neon-border">
             <FaInstagram />
           </a>
           <a href="#" className="mr-4 text-xl neon-border">
             <FaX />
           </a>
-          <a href="#" className="mr-4 text-xl neon-border">
+          <a href="https://discord.gg/pqdC65kAPu" className="mr-4 text-xl neon-border">
             <FaDiscord />
           </a>
           <a href="#" className="mr-4 text-xl neon-border">

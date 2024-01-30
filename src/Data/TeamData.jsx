@@ -30,7 +30,7 @@ export const TeamMembersArray = [
   {
     id: 5,
     name: "Nilesh Mankape",
-    designation: "Design and Content Team Lead",
+    designation: "Design Team Lead",
     photourl:
     "https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80",
   },
