@@ -17,7 +17,7 @@ const Footer = () => {
     <footer className="footer-bg text-center text-neutral-600lg:text-left text-white bg-transparent">
       {/* Main container div: holds the entire content of the footer, including four sections (TW elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. */}
       <div className="mx-6 py-10 text-center md:text-left">
-        <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* TW elements section */}
           <div className>
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start text-[#4EFF3F]">
@@ -33,7 +33,7 @@ const Footer = () => {
             </p>
           </div>
           {/* Products section */}
-          {/* <div className>
+          <div className>
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Useful Links
             </h6>
@@ -47,7 +47,7 @@ const Footer = () => {
                 Terms and Conditions
               </a>
             </p>
-          </div> */}
+          </div>
           {/* Useful links section */}
           <div className>
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
