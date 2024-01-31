@@ -1,17 +1,28 @@
 import React from "react";
 import logo from "../assets/logos/gfg-logo.svg";
+import { NavLink } from "react-router-dom";
 
+const navLink = [
+  {
+    path: "/",
+    display: "Home",
+  },
+  {
+    path: "/events",
+    display: "Events",
+  },
+  {
+    path: "/team",
+    display: "Team",
+  },
+];
 
 const Navbar = () => {
   return (
     <nav className="navbar-bg fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img
-            src={logo}
-            className="h-8"
-            alt="Flowbite Logo"
-          />
+          <img src={logo} className="h-8" alt="Flowbite Logo" />
           <span className="self-center text-2xl text-white font-semibold whitespace-nowrap ">
             GFG-MITA
           </span>
@@ -53,31 +64,23 @@ const Navbar = () => {
           id="navbar-sticky"
         >
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
-            <li>
-              <a
-                href="/"
-                className="block py-2 px-3 text-white  rounded md:bg-transparent md:hover:text-[#4eff3f] md:p-0 "
-                aria-current="page"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="/team"
-                className="block py-2 px-3 text-white rounded  md:hover:bg-transparent md:hover:text-[#4eff3f] md:p-0 "
-              >
-                Team
-              </a>
-            </li>
-            <li>
-              <a
-                href="/events"
-                className="block py-2 px-3 text-white rounded  md:hover:bg-transparent md:hover:text-[#4eff3f] md:p-0 "
-              >
-                Events
-              </a>
-            </li>
+            {navLink.map((ele, index) => {
+              return (
+                // <li>
+                <NavLink
+                  key={index}
+                  to={ele.path}
+                  className={(navClass) =>
+                    navClass.isActive
+                      ? " block py-2 px-3 text-[#4fff3f90]  rounded md:bg-transparent  md:p-0 "
+                      : " block py-2 px-3 text-slate-50  rounded md:bg-transparent md:hover:text-[#fff] md:p-0 "
+                  }
+                >
+                  {ele.display}
+                </NavLink>
+                // </li>
+              );
+            })}
           </ul>
         </div>
       </div>

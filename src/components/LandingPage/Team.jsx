@@ -1,7 +1,11 @@
 import React from "react";
-import { FaArrowRight, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+  FaArrowRight,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 import { TeamMembersArray } from "../../Data/data";
-
 
 export default function Team() {
   return (
@@ -19,7 +23,8 @@ export default function Team() {
                 </h1>
                 {/* Description */}
                 <p className="text-slate-100 text-lg font-light">
-                "Coding Dreams, Building Futures: Unleashing Potential with GFG Student Chapter Team!"
+                  "Coding Dreams, Building Futures: Unleashing Potential with
+                  GFG Student Chapter Team!"
                 </p>
               </div>
             </div>
@@ -33,12 +38,12 @@ export default function Team() {
                   >
                     <div className="flex flex-col border-with-shadow p-4">
                       {/* Avatar */}
-                      <a href="#" className="mx-auto">
+                      <div className="mx-auto">
                         <img
                           className="w-60 h-[240px] object-center rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                           src={ele.photourl}
                         />
-                      </a>
+                      </div>
                       {/* Details */}
                       <div className="text-center mt-6">
                         {/* Name */}
@@ -57,6 +62,7 @@ export default function Team() {
                           {/* Linkedin */}
                           <a
                             href={ele.linkedin}
+                            target="_blank"
                             className="flex rounded-full h-10 w-10"
                           >
                             <FaLinkedinIn className="text-indigo-700 mx-auto mt-2" />
@@ -64,6 +70,7 @@ export default function Team() {
                           {/* Twitter */}
                           <a
                             href={ele.twitter}
+                            target="_blank"
                             className="flex rounded-full h-10 w-10"
                           >
                             <FaTwitter className="text-blue-400 mx-auto mt-2" />
@@ -71,6 +78,7 @@ export default function Team() {
                           {/* Instagram */}
                           <a
                             href={ele.instagram}
+                            target="_blank"
                             className="flex rounded-full h-10 w-10"
                           >
                             <FaInstagram className="text-orange-400 mx-auto mt-2" />
@@ -82,18 +90,13 @@ export default function Team() {
                 );
               })}
             </div>
-
-
-
-
           </div>
 
-          <div className="w-full flex items-center justify-center mt-5" >
-                <a href="/team" className="p-5 box-shadow-for-Arrow" >
-                  <FaArrowRight className="text-[#4eff3f] text-2xl" />
-                </a>
+          <div className="w-full flex items-center justify-center mt-5">
+            <a href="/team" className="p-5 box-shadow-for-Arrow">
+              <FaArrowRight className="text-[#4eff3f] text-2xl" />
+            </a>
           </div>
-
         </div>
       </div>
     </div>

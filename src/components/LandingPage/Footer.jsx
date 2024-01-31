@@ -90,6 +90,7 @@ const Footer = () => {
             </p>
             <a
               href="https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ"
+              target="_blank"
               className="hidden md:block  bg-[#4eff3f] text-black rounded-lg px-5 py-3 text-xs  font-bold tracking-wider uppercase"
             >
               Join Our Community
@@ -103,25 +104,27 @@ const Footer = () => {
         </div>
         {/* Social network icons container */}
         <div className="flex justify-center">
-          <a href="#" className="mr-4 text-xl neon-border">
+          <a href="#" target="_blank" className="mr-4 text-xl neon-border">
             <FaTelegramPlane />
           </a>
           <a
             href="https://www.instagram.com/gfg.mita/"
             className="mr-4 text-xl neon-border"
+            target="_blank"
           >
             <FaInstagram />
           </a>
-          <a href="#" className="mr-4 text-xl neon-border">
+          <a href="#" target="_blank" className="mr-4 text-xl neon-border">
             <FaX />
           </a>
           <a
             href="https://discord.gg/pqdC65kAPu"
+            target="_blank"
             className="mr-4 text-xl neon-border"
           >
             <FaDiscord />
           </a>
-          <a href="/" className="mr-4 text-xl neon-border">
+          <a href="/" target="_blank" className="mr-4 text-xl neon-border">
             <FaLinkedinIn />
           </a>
         </div>
@@ -129,7 +132,7 @@ const Footer = () => {
       {/*Copyright section*/}
       <div className="p-6 text-center transparent-bg ">
         <span>© 2024 Copyright </span>
-        <a className="font-semibold text-[#4eff3f]" href="#">
+        <a className="font-semibold text-[#4eff3f]" href="/">
           GFG-MITA
         </a>
       </div>
