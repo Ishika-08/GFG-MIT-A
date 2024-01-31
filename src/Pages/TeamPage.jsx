@@ -1,10 +1,16 @@
 import React from "react";
-import {MainArray, TechArray, EventArray, SocialMediaArray, PRArray, MarketingArray, DesignArray } from "../Data/TeamData";
+import {
+  MainArray,
+  TechArray,
+  EventArray,
+  SocialMediaArray,
+  PRArray,
+  MarketingArray,
+  DesignArray,
+} from "../Data/data";
 import TeamCard from "../components/TeamPage/TeamCard";
 
-
-
-export default function Team() {
+const TeamPage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen mt-[80px]">
       <div className="flex flex-col">
@@ -20,7 +26,8 @@ export default function Team() {
                 </h1>
                 {/* Description */}
                 <p className="text-slate-100 text-lg font-light">
-                "Coding Dreams, Building Futures: Unleashing Potential with GFG Student Chapter Team!"
+                  "Coding Dreams, Building Futures: Unleashing Potential with
+                  GFG Student Chapter Team!"
                 </p>
               </div>
             </div>
@@ -28,15 +35,16 @@ export default function Team() {
         </div>
 
         {/* Teams*/}
-        <TeamCard Array={MainArray} Team={"Core Team"}/>
-        <TeamCard Array={TechArray} Team={"Technical Team"}/>
-        <TeamCard Array={EventArray} Team={"Event Team"}/>
-        <TeamCard Array={PRArray} Team={"PR & Outreach Team"}/>
-        <TeamCard Array={SocialMediaArray} Team={"Social Media Team"}/>
+        <TeamCard Array={MainArray} Team={"Core Team"} />
+        <TeamCard Array={TechArray} Team={"Technical Team"} />
+        <TeamCard Array={EventArray} Team={"Event Team"} />
+        <TeamCard Array={PRArray} Team={"PR & Outreach Team"} />
+        <TeamCard Array={SocialMediaArray} Team={"Social Media Team"} />
         <TeamCard Array={MarketingArray} Team={"Marketing Team"} />
-        <TeamCard Array={DesignArray} Team={"Design and Content Team"}/>
-       
+        <TeamCard Array={DesignArray} Team={"Design and Content Team"} />
       </div>
     </div>
   );
-}
+};
+
+export default TeamPage;

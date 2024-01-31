@@ -1,8 +1,9 @@
 import React from "react";
+import img from "../../assets/heroImg.svg";
 
 const Hero = () => {
   const handleButtonClick = () => {
-    window.location.href = 'https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ';
+    window.location.href = "https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ";
   };
 
   return (
@@ -19,14 +20,16 @@ const Hero = () => {
                 OF MIT CHH. SAMBHAJINAGAR <br />
               </h1>
 
-              <div className="flex flex-col lg:flex-row" >
-                <a 
-                className="hero-button-1 px-5 py-2 mt-6 text-sm tracking-wider uppercase"
-                href="https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ">
+              <div className="flex flex-col lg:flex-row">
+                <a
+                  className="hero-button-1 px-5 py-2 mt-6 text-sm tracking-wider uppercase"
+                  target="_blank"
+                  href="https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ"
+                >
                   Join Our Community
                 </a>
 
-                <a  className="opacity-50 ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
+                <a className="opacity-50 ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
                   Register For Event
                 </a>
               </div>
@@ -35,7 +38,7 @@ const Hero = () => {
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
             <img
               className="w-1/2 h-full lg:max-w-3xl"
-              src="./assets/heroImg.svg"
+              src={img}
               alt="Catalogue-pana.svg"
             />
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { TeamMembersArray } from "../../Data/TeamData";
+import { TeamMembersArray } from "../../Data/data";
 
 
 export default function Team() {
@@ -36,7 +36,6 @@ export default function Team() {
                       <a href="#" className="mx-auto">
                         <img
                           className="w-60 h-[240px] object-center rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                          className="w-60 h-[210px]  rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                           src={ele.photourl}
                         />
                       </a>

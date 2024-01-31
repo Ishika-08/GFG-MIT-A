@@ -11,6 +11,7 @@ import { FaTwitter, FaX } from "react-icons/fa6";
 
 import { HiOfficeBuilding } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
+import logo from "../../assets/logos/gfg-logo.svg";
 
 const Footer = () => {
   return (
@@ -21,11 +22,7 @@ const Footer = () => {
           {/* TW elements section */}
           <div className>
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start text-[#4EFF3F]">
-              <img
-                src="./assets/logos/gfg-logo.svg"
-                className="w-6 mr-2"
-                alt=""
-              />
+              <img src={logo} className="w-6 mr-2" alt="" />
               GFG-MITA
             </h6>
             <p className="text-base">
@@ -54,17 +51,26 @@ const Footer = () => {
               Navigation links
             </h6>
             <p className="mb-4">
-              <a href="/events" className="text-neutral-600 dark:text-neutral-200">
+              <a
+                href="/events"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
                 Events
               </a>
             </p>
             <p className="mb-4">
-              <a href="/team" className="text-neutral-600 dark:text-neutral-200">
+              <a
+                href="/team"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
                 Team
               </a>
             </p>
             <p>
-              <a href="https://forms.gle/ruziSxVyCfu5Yr977" className="text-neutral-600 dark:text-neutral-200">
+              <a
+                href="https://forms.gle/ruziSxVyCfu5Yr977"
+                className="text-neutral-600 dark:text-neutral-200"
+              >
                 Help
               </a>
             </p>
@@ -100,16 +106,22 @@ const Footer = () => {
           <a href="#" className="mr-4 text-xl neon-border">
             <FaTelegramPlane />
           </a>
-          <a href="https://www.instagram.com/gfg.mita/" className="mr-4 text-xl neon-border">
+          <a
+            href="https://www.instagram.com/gfg.mita/"
+            className="mr-4 text-xl neon-border"
+          >
             <FaInstagram />
           </a>
           <a href="#" className="mr-4 text-xl neon-border">
             <FaX />
           </a>
-          <a href="https://discord.gg/pqdC65kAPu" className="mr-4 text-xl neon-border">
+          <a
+            href="https://discord.gg/pqdC65kAPu"
+            className="mr-4 text-xl neon-border"
+          >
             <FaDiscord />
           </a>
-          <a href="#" className="mr-4 text-xl neon-border">
+          <a href="/" className="mr-4 text-xl neon-border">
             <FaLinkedinIn />
           </a>
         </div>
