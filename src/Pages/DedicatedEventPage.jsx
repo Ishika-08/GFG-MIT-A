@@ -2,7 +2,7 @@ import React from "react";
 
 const DedicatedEventPage = () => {
   return (
-    <div className="max-w-screen-lg mx-auto text-white">
+    <div className="max-w-screen-lg mx-auto text-white  mt-[100px]">
       <main className="mt-10">
         <div className="mb-4 md:mb-0 w-full mx-auto relative">
           <div className="px-4 lg:px-0">

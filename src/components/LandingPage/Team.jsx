@@ -35,7 +35,7 @@ export default function Team() {
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
                         <img
-                          className="w-60 rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                          className="w-60 h-[210px]  rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                           src={ele.photourl}
                         />
                       </a>
