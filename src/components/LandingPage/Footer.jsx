@@ -1,17 +1,14 @@
 import React from "react";
 import {
   FaTelegramPlane,
-  FaInstagram,
-  FaReddit,
+  FaInstagram,  
   FaDiscord,
-  FaPhoneAlt,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { FaTwitter, FaX } from "react-icons/fa6";
+import { FaX } from "react-icons/fa6";
 
 import { HiOfficeBuilding } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
-import logo from "../../assets/logos/gfg-logo.svg";
 
 const Footer = () => {
   return (
@@ -22,7 +19,7 @@ const Footer = () => {
           {/* TW elements section */}
           <div className>
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start text-[#4EFF3F]">
-              <img src={logo} className="w-6 mr-2" alt="" />
+              <img src={`assets/logos/gfg-logo.svg`} className="w-6 mr-2" alt="" />
               GFG-MITA
             </h6>
             <p className="text-base">
@@ -69,6 +66,7 @@ const Footer = () => {
             <p>
               <a
                 href="https://forms.gle/ruziSxVyCfu5Yr977"
+                target="_blank"
                 className="text-neutral-600 dark:text-neutral-200"
               >
                 Help

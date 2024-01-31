@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import img from "../assets/c-1.jpg";
 import { events } from "../Data/data";
 import { useParams } from "react-router-dom";
 
@@ -41,7 +40,7 @@ const EventPage = () => {
               </a>
             </div>
             <img
-              src={`../${data?.imgUrl}`}
+              src={`${data?.imgUrl}`}
               className="w-full object-cover lg:rounded"
               style={{ height: "28em" }}
             />

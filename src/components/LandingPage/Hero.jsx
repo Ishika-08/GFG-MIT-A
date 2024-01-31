@@ -1,6 +1,4 @@
 import React from "react";
-import img from "../../assets/heroImg.svg";
-
 const Hero = () => {
   const handleButtonClick = () => {
     window.location.href = "https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ";
@@ -38,7 +36,7 @@ const Hero = () => {
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
             <img
               className="w-1/2 h-full lg:max-w-3xl"
-              src={img}
+              src={`assets/heroImg.svg`}
               alt="Catalogue-pana.svg"
             />
           </div>

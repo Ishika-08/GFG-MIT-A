@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/logos/gfg-logo.svg";
 import { NavLink } from "react-router-dom";
 
 const navLink = [
@@ -22,7 +21,11 @@ const Navbar = () => {
     <nav className="navbar-bg fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logo} className="h-8" alt="Flowbite Logo" />
+          <img
+            src={`assets/logos/gfg-logo.svg`}
+            className="h-8"
+            alt="Flowbite Logo"
+          />
           <span className="self-center text-2xl text-white font-semibold whitespace-nowrap ">
             GFG-MITA
           </span>

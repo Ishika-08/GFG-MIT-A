@@ -1,7 +1,4 @@
 import React from "react";
-import c1 from "../../assets/c-1.jpg";
-import c2 from "../../assets/c-1.jpg";
-
 const Carasousel = () => {
   return (
     <div
@@ -14,7 +11,7 @@ const Carasousel = () => {
         {/* Item 1 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src={c1}
+            src={`assets/c-1.jpg`}
             className="absolute block object-contain w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
@@ -22,7 +19,7 @@ const Carasousel = () => {
         {/* Item 2 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src={c2}
+            src={`assets/c-1.jpg`}
             className="absolute block object-contain w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
