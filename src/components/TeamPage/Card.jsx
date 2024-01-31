@@ -29,21 +29,21 @@ export default function Card({ele}) {
       >
         {/* Linkedin */}
         <a
-          href="#"
+          href={ele.linkedin}
           className="flex rounded-full h-10 w-10"
         >
           <FaLinkedinIn className="text-indigo-700 mx-auto mt-2" />
         </a>
         {/* Twitter */}
         <a
-          href="#"
+          href={ele.twitter}
           className="flex rounded-full h-10 w-10"
         >
           <FaTwitter className="text-blue-400 mx-auto mt-2" />
         </a>
         {/* Instagram */}
         <a
-          href="#"
+          href={ele.instagram}
           className="flex rounded-full h-10 w-10"
         >
           <FaInstagram className="text-orange-400 mx-auto mt-2" />

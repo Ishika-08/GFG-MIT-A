@@ -35,6 +35,7 @@ export default function Team() {
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
                         <img
+                          className="w-60 h-[240px] object-center rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                           className="w-60 h-[210px]  rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                           src={ele.photourl}
                         />
@@ -56,21 +57,21 @@ export default function Team() {
                         >
                           {/* Linkedin */}
                           <a
-                            href="#"
+                            href={ele.linkedin}
                             className="flex rounded-full h-10 w-10"
                           >
                             <FaLinkedinIn className="text-indigo-700 mx-auto mt-2" />
                           </a>
                           {/* Twitter */}
                           <a
-                            href="#"
+                            href={ele.twitter}
                             className="flex rounded-full h-10 w-10"
                           >
                             <FaTwitter className="text-blue-400 mx-auto mt-2" />
                           </a>
                           {/* Instagram */}
                           <a
-                            href="#"
+                            href={ele.instagram}
                             className="flex rounded-full h-10 w-10"
                           >
                             <FaInstagram className="text-orange-400 mx-auto mt-2" />

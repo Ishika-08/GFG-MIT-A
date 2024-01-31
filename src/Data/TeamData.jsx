@@ -14,7 +14,7 @@ export const TeamMembersArray = [
         name: "Yashwant P. Nidhonkar",
         designation: "Vice - Chairperson ",
         photourl:
-            "/TeamMembers/Main/Yashwant-Nidhonkar.jpeg",
+            "/TeamMembers/Main/Yashwant-Nidhonkar.jpg",
         linkedin: "",
         twitter: "",
         instagram: "",
@@ -64,7 +64,7 @@ export const TeamMembersArray = [
         name: "Komal Sharma",
         designation: "Event Team Lead",
         photourl:
-            "/TeamMembers/Event/Komal-Sharma.jpeg",
+            "/TeamMembers/Event/Komal-Sharma.jpg",
         linkedin: "",
         twitter: "",
         instagram: "",
@@ -74,7 +74,7 @@ export const TeamMembersArray = [
         name: "Rutuja Tamboli",
         designation: "Marketing Team Lead",
         photourl:
-            "/TeamMembers/Marketing/Rutuja-Tamboli.jpeg",
+            "/TeamMembers/Marketing/Rutuja-Tamboli.jpg",
         linkedin: "https://www.linkedin.com/in/rutuja-tamboli-92a424258",
         twitter: "",
         instagram: "https://www.instagram.com/rutu_tamboli_?igsh=MWd5dDg2aHgzcnh3bw== https://www.linkedin.com/in/rutuja-tamboli-92a424258",
@@ -98,7 +98,7 @@ export const MainArray = [
         name: "Yashwant P. Nidhonkar",
         designation: "Vice - Chairperson ",
         photourl:
-            "/TeamMembers/Main/Yashwant-Nidhonkar.jpeg",
+            "/TeamMembers/Main/Yashwant-Nidhonkar.jpg",
         linkedin: "",
         twitter: "",
         instagram: "",
@@ -164,7 +164,7 @@ export const EventArray = [
         name: "Komal Sharma",
         designation: "Event Team Lead",
         photourl:
-            "/TeamMembers/Event/Komal-Sharma.jpeg",
+            "/TeamMembers/Event/Komal-Sharma.jpg",
         linkedin: "",
         twitter: "",
         instagram: "",
@@ -194,7 +194,7 @@ export const EventArray = [
         name: "Apurva Sukale ",
         designation: "Event Team Member",
         photourl:
-            "/TeamMembers/Event/Apurva-Sukale.jpeg",
+            "/TeamMembers/Event/Apurva-Sukale.jpg",
         linkedin: "https://www.linkedin.com/in/apurva-sukale-871902262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
         instagram: "https://www.instagram.com/sukaleapurva?igsh=b2JhYmwzMGo3bzVn",
@@ -263,7 +263,7 @@ export const MarketingArray = [
         name: "Rutuja Tamboli",
         designation: "Marketing Team Lead",
         photourl:
-            "/TeamMembers/Marketing/Rutuja-Tamboli.jpeg",
+            "/TeamMembers/Marketing/Rutuja-Tamboli.jpg",
         linkedin: "https://www.linkedin.com/in/rutuja-tamboli-92a424258",
         twitter: "",
         instagram: "https://www.instagram.com/rutu_tamboli_?igsh=MWd5dDg2aHgzcnh3bw== https://www.linkedin.com/in/rutuja-tamboli-92a424258",
@@ -306,7 +306,7 @@ export const DesignArray = [
         name: "Prasad Dinnapurkar",
         designation: "Design and Content Team Member",
         photourl:
-            "/TeamMembers/Design/Prasad-Dinnapurkar.jpeg",
+            "/TeamMembers/Design/Prasad-Dinnapurkar.jpg",
         linkedin: "https://www.linkedin.com/in/prasad-dinnapurkar-236256259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "https://x.com/PDinnapurkar?t=ZcGbcKB0E9T8rLBpuBd6GA&s=08",
         instagram: "https://www.instagram.com/prasaddinnapurkar_007/",

@@ -17,7 +17,7 @@ const Footer = () => {
     <footer className="footer-bg text-center text-neutral-600lg:text-left text-white bg-transparent">
       {/* Main container div: holds the entire content of the footer, including four sections (TW elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. */}
       <div className="mx-6 py-10 text-center md:text-left">
-        <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {/* TW elements section */}
           <div className>
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start text-[#4EFF3F]">
@@ -33,7 +33,7 @@ const Footer = () => {
             </p>
           </div>
           {/* Products section */}
-          <div className>
+          {/* <div className>
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Useful Links
             </h6>
@@ -47,7 +47,7 @@ const Footer = () => {
                 Terms and Conditions
               </a>
             </p>
-          </div>
+          </div> */}
           {/* Useful links section */}
           <div className>
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
@@ -59,17 +59,12 @@ const Footer = () => {
               </a>
             </p>
             <p className="mb-4">
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Blogs
-              </a>
-            </p>
-            <p className="mb-4">
               <a href="/team" className="text-neutral-600 dark:text-neutral-200">
                 Team
               </a>
             </p>
             <p>
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+              <a href="https://forms.gle/ruziSxVyCfu5Yr977" className="text-neutral-600 dark:text-neutral-200">
                 Help
               </a>
             </p>
@@ -88,7 +83,7 @@ const Footer = () => {
               gfg.mita@gmail.com
             </p>
             <a
-              href="#"
+              href="https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ"
               className="hidden md:block  bg-[#4eff3f] text-black rounded-lg px-5 py-3 text-xs  font-bold tracking-wider uppercase"
             >
               Join Our Community
@@ -105,13 +100,13 @@ const Footer = () => {
           <a href="#" className="mr-4 text-xl neon-border">
             <FaTelegramPlane />
           </a>
-          <a href="#" className="mr-4 text-xl neon-border">
+          <a href="https://www.instagram.com/gfg.mita/" className="mr-4 text-xl neon-border">
             <FaInstagram />
           </a>
           <a href="#" className="mr-4 text-xl neon-border">
             <FaX />
           </a>
-          <a href="#" className="mr-4 text-xl neon-border">
+          <a href="https://discord.gg/pqdC65kAPu" className="mr-4 text-xl neon-border">
             <FaDiscord />
           </a>
           <a href="#" className="mr-4 text-xl neon-border">
