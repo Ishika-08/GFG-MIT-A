@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const EventCard = ({ event }) => {
   return (
@@ -25,14 +26,14 @@ const EventCard = ({ event }) => {
           </span>
         </div>
         <div className="mt-3">
-          <a
-            href={`event/${event.id}`}
+          <Link
+            to={`${event.id}`}
             className={`p-2 rounded-md text-zinc-800  ${
               event.active ? "bg-[#4eff3f]" : "bg-red-600"
             } `}
           >
             {event.active ? "Apply Now" : "Closed"}
-          </a>
+          </Link>
         </div>
       </div>
     </div>

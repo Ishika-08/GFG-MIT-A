@@ -15,7 +15,7 @@ const Layout = () => {
           <Route exact path="/" element={<LandingPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/events" element={<AllEventsPage />} />
-          <Route path="/event/:id" element={<EventPage />} />
+          <Route path="/events/:id" element={<EventPage />} />
         </Routes>
       </main>
     </>

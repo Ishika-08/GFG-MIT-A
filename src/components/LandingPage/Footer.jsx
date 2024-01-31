@@ -1,7 +1,7 @@
 import React from "react";
 import {
   FaTelegramPlane,
-  FaInstagram,  
+  FaInstagram,
   FaDiscord,
   FaLinkedinIn,
 } from "react-icons/fa";
@@ -9,6 +9,7 @@ import { FaX } from "react-icons/fa6";
 
 import { HiOfficeBuilding } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,7 +20,11 @@ const Footer = () => {
           {/* TW elements section */}
           <div className>
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start text-[#4EFF3F]">
-              <img src={`assets/logos/gfg-logo.svg`} className="w-6 mr-2" alt="" />
+              <img
+                src={`assets/logos/gfg-logo.svg`}
+                className="w-6 mr-2"
+                alt=""
+              />
               GFG-MITA
             </h6>
             <p className="text-base">
@@ -48,20 +53,20 @@ const Footer = () => {
               Navigation links
             </h6>
             <p className="mb-4">
-              <a
-                href="/events"
+              <Link
+                to={"/events"}
                 className="text-neutral-600 dark:text-neutral-200"
               >
                 Events
-              </a>
+              </Link>
             </p>
             <p className="mb-4">
-              <a
-                href="/team"
+              <Link
+                to={"/team"}
                 className="text-neutral-600 dark:text-neutral-200"
               >
                 Team
-              </a>
+              </Link>
             </p>
             <p>
               <a
@@ -130,9 +135,9 @@ const Footer = () => {
       {/*Copyright section*/}
       <div className="p-6 text-center transparent-bg ">
         <span>© 2024 Copyright </span>
-        <a className="font-semibold text-[#4eff3f]" href="/">
+        <Link className="font-semibold text-[#4eff3f]" to={"/"}>
           GFG-MITA
-        </a>
+        </Link>
       </div>
     </footer>
   );

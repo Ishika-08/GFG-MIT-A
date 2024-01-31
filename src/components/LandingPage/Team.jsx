@@ -6,6 +6,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { TeamMembersArray } from "../../Data/data";
+import { Link } from "react-router-dom";
 
 export default function Team() {
   return (
@@ -93,9 +94,9 @@ export default function Team() {
           </div>
 
           <div className="w-full flex items-center justify-center mt-5">
-            <a href="/team" className="p-5 box-shadow-for-Arrow">
+            <Link to={"/team"} className="p-5 box-shadow-for-Arrow">
               <FaArrowRight className="text-[#4eff3f] text-2xl" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
