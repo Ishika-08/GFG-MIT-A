@@ -336,33 +336,30 @@ export const events = [
   },
   {
     id: "event-2",
-    name: "Node Js Introduction with 1 Project",
-    imgUrl: `assets/c-2.jpg`,
+    name: "Github Workshop",
+    imgUrl: `/assets/Events/Github/poster.jpg`,
     date: "1-02-2024",
-    tag1: "Nodejs",
-    tag2: "Web Development",
-    mode: "Online",
-    eventType: "Webinar",
+    tag1: "Github",
+    tag2: " ",
+    mode: "Offline",
+    eventType: "Seminar",
     active: false,
     formLink: "",
-    description: [
-      `
-    Advantage old had otherwise sincerity dependent additions. It in
-    adapted natural hastily is justice. Six draw you him full not mean
-    evil. Prepare garrets it expense windows shewing do an. She
-    projection advantages resolution son indulgence. Part sure on no
-    long life am at ever. In songs above he as drawn to. Gay was
-    outlived peculiar rendered led six.`,
-      `Difficulty on insensible reasonable in. From as went he they.
-    Preference themselves me as thoroughly partiality considered on in
-    estimating. Middletons acceptance discovered projecting so is so
-    or. In or attachment inquietude remarkably comparison at an. Is
-    surrounded prosperous stimulated am me discretion expression. But
-    truth being state can she china widow. Occasional preference fat
-    remarkably now projecting uncommonly dissimilar. Sentiments
-    projection particular companions interested do at my delightful.
-    Listening newspaper in advantage frankness to concluded unwilling.`,
+    description: [`
+    Our GitHub workshop at MIT brought together participants eager to explore collaborative coding and version control. 
+    The event covered Git fundamentals, branching, and pull requests, offering hands-on exercises for real-time collaboration. 
+    Participants delved into GitHub's issue tracking and project management tools, gaining insights into effective communication and workflow optimization. 
+    Emphasis was placed on best practices such as commit hygiene, meaningful messages, and documentation. 
+    The workshop concluded with a vibrant Q&A session and networking opportunities, fostering a sense of community among attendees. 
+    From beginners to seasoned developers, the workshop provided valuable skills and knowledge for leveraging GitHub in an ever-evolving coding landscape. 
+    Stay tuned for more workshops as we continue to empower developers and nurture a culture of collaboration.
+    `    ],
+    lessons: [
+      `Getting Started with Git and GitHub`, 
+      `Branching and Pull Requests`,
+      `Effective Collaboration Tools`,
+      `Best Practices and Tips`,
+      `Q&A`
     ],
-    lessons: [` Lesson 1`, `Lesson 2`],
   },
 ];

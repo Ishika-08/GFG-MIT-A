@@ -41,7 +41,7 @@ const EventPage = () => {
             </div>
             <img
               src={`../${data?.imgUrl}`}
-              className="w-full object-cover lg:rounded"
+              className="w-full object-contain lg:rounded bg-gray-300"
               style={{ height: "28em" }}
             />
           </div>
