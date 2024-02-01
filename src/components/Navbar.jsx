@@ -1,5 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { useRef } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const navLink = [
   {
@@ -17,19 +18,25 @@ const navLink = [
 ];
 
 const Navbar = () => {
+  const navMenu = useRef(null);
+
+  const callMenubtn = () => {
+    // console.log(navMenu.current.classList);
+    navMenu.current.classList.toggle("hidden");
+  };
+
   return (
     <nav className="navbar-bg fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img
-            src={`assets/logos/gfg-logo.svg`}
-            className="h-8"
-            alt="Flowbite Logo"
-          />
+        <Link
+          to={"/"}
+          className="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img src={`assets/logos/gfg-logo.svg`} className="h-8" alt="Logo" />
           <span className="self-center text-2xl text-white font-semibold whitespace-nowrap ">
             GFG-MITA
           </span>
-        </a>
+        </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <a
             href="https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ"
@@ -39,11 +46,9 @@ const Navbar = () => {
             Join Our Community
           </a>
           <button
-            data-collapse-toggle="navbar-sticky"
             type="button"
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
-            aria-controls="navbar-sticky"
-            aria-expanded="false"
+            onClick={callMenubtn}
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -64,8 +69,8 @@ const Navbar = () => {
           </button>
         </div>
         <div
+          ref={navMenu}
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-          id="navbar-sticky"
         >
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
             {navLink.map((ele, index) => {
