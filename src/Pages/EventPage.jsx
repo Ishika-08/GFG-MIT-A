@@ -42,7 +42,7 @@ const EventPage = () => {
             <img
               src={`../${data?.imgUrl}`}
               className="w-full object-contain lg:rounded bg-gray-300"
-              style={{ height: "28em" }}
+              style={{ height: "22em" }}
             />
           </div>
           <div className="flex flex-col lg:flex-row lg:space-x-12">

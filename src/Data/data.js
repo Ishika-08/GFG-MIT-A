@@ -306,7 +306,7 @@ export const events = [
   {
     id: "event-1",
     name: "React Js Introduction with 1 Project",
-    imgUrl: `assets/c-1.jpg`,
+    imgUrl: `assets/Events/React/react.jpg`,
     date: "10-02-2024",
     tag1: "React",
     tag2: "Web Development",
