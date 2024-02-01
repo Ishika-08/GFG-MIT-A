@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 
 const EventCard = ({ event }) => {
   return (
-    <div className="relative flex flex-col items-center light-background-for-event-cards rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-700 p-5 hover:cursor-pointer">
+    <div className="relative flex flex-col items-center light-background-for-event-cards rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-700 p-5 hover:cursor-pointer overflow-hidden">
       <span className="absolute text-xs top-2 right-2 bg-white text-zinc-800 p-1 rounded-sm ">
         {event.tag1}
       </span>
 
       <img
-        className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+        className="object-fill w-64 rounded-t-lg h-52  md:w-48 md:rounded-none md:rounded-s-lg"
         src={event.imgUrl}
         alt
       />
       <div className=" flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-slate-100 ">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-slate-100">
           {event.name}
         </h5>
         <div className="my-4">

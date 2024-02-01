@@ -8,7 +8,7 @@ const AllEventsPage = () => {
         <h1 className="text-gray-900 mt-8 py-3 text-4xl md:text-6xl font-bold gradient-to-text">
           Upcoming Events
         </h1>
-        <div className="grid max-w-screen-xl  gap-8 p-4 mx-auto text-gray-900  grid-cols-1 lg:grid-cols-2 sm:p-8">
+        <div className="grid w-fit lg:w-3/4 max-w-screen-xl  gap-8 p-4 mx-auto text-gray-900  grid-cols-1 lg:grid-cols-2 sm:p-8">
           {events.map((event) => {
             return event.active ? <EventCard event={event} /> : "";
           })}
@@ -18,7 +18,7 @@ const AllEventsPage = () => {
         <h1 className="text-gray-900 mt-8 py-3 text-4xl md:text-6xl font-bold gradient-to-text">
           Past Events
         </h1>
-        <div className="grid max-w-screen-xl  gap-8 p-4 mx-auto text-gray-900  grid-cols-1 lg:grid-cols-2 sm:p-8">
+        <div className="grid w-fit lg:w-3/4 max-w-screen-xl  gap-8 p-4 mx-auto text-gray-900  grid-cols-1 lg:grid-cols-2 sm:p-8">
           {events.map((event) => {
             return event.active == false ? <EventCard event={event} /> : "";
           })}

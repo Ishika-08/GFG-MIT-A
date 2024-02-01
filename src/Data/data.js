@@ -305,7 +305,8 @@ export const DesignArray = [
 export const events = [
   {
     id: "event-1",
-    name: "React Js Introduction with 1 Project",
+    name: "React Js Workshop",
+    fullName : "React Js Workshop + 1 Live Project Building",
     imgUrl: `assets/Events/React/react.jpg`,
     date: "10-02-2024",
     tag1: "React",
@@ -337,6 +338,7 @@ export const events = [
   {
     id: "event-2",
     name: "Github Workshop",
+    fullName : "Github Workshop",
     imgUrl: `/assets/Events/Github/poster.jpg`,
     date: "1-02-2024",
     tag1: "Github",

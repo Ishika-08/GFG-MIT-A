@@ -48,7 +48,7 @@ const EventPage = () => {
           <div className="flex flex-col lg:flex-row lg:space-x-12">
             <div className="px-4 lg:px-0 mt-12 text-slate-200 text-lg leading-relaxed w-full lg:w-2/3">
               <h2 className="text-4xl mb-4 font-semibold text-slate-50 leading-tight">
-                {data?.name}
+                {data?.fullName}
               </h2>
 
               {data.description.map((ele) => {
