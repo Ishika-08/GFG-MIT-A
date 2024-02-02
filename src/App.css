@@ -1,6 +1,7 @@
 body {
   background-color: #01021e;
-  background-image: url("bg.png")
+  background-image: url("bg.png");
+  z-index: -1000;
 }
 
 .neon-border {
