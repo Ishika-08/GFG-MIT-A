@@ -9,7 +9,7 @@ export default function LandingPage() {
     <div>
       <Hero />
       <AboutUs />
-      <Carasousel />
+      {/* <Carasousel /> */}
       <Team />
       <Footer />
     </div>
