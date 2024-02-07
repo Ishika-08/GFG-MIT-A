@@ -301,20 +301,20 @@ export const DesignArray = [
 ];
 
 export const events = [
-  {
-    id: "event-1",
-    name: "React Js Workshop",
-    fullName: "React Js Workshop + 1 Live Project Building",
-    imgUrl: `assets/Events/React/react.jpg`,
-    date: "10-02-2024",
-    tag1: "React",
-    tag2: "Web Development",
-    mode: "Online",
-    eventType: "Webinar",
-    active: true,
-    formLink: "",
-    description: [
-      `
+    {
+        id: "event-1",
+        name: "React Js Workshop",
+        fullName: "React Js Workshop + 1 Live Project Building",
+        imgUrl: `assets/Events/React/react.jpeg`,
+        date: "Coming Soon",
+        tag1: "React",
+        tag2: "Web Development",
+        mode: "Offline",
+        eventType: "Webinar",
+        active: true,
+        formLink: "",
+        description: [
+            `
     Advantage old had otherwise sincerity dependent additions. It in
     adapted natural hastily is justice. Six draw you him full not mean
     evil. Prepare garrets it expense windows shewing do an. She
@@ -330,23 +330,22 @@ export const events = [
     remarkably now projecting uncommonly dissimilar. Sentiments
     projection particular companions interested do at my delightful.
     Listening newspaper in advantage frankness to concluded unwilling.`,
-    ],
-    lessons: [` Lesson 1`, `Lesson 2`],
-  },
-  {
-    id: "event-2",
-    name: "Github Workshop",
-    fullName: "Github Workshop",
-    imgUrl: `/assets/Events/Github/poster.jpg`,
-    date: "1-02-2024",
-    tag1: "Github",
-    tag2: " ",
-    mode: "Offline",
-    eventType: "Seminar",
-    active: false,
-    formLink: "",
-    description: [
-      `
+        ],
+        lessons: [`Introduction to React`, `Setting Up a React Environment`, `JSX (JavaScript XML)`, `Components and Props`, `State and Hooks`, `Handling Events`, `Conditional Rendering`, `Forms in React`, `React Router`, `Managing State Across Components`, `Fetching Data`, ],
+    },
+    {
+        id: "event-2",
+        name: "Github Workshop",
+        fullName: "Github Workshop",
+        imgUrl: `/assets/Events/Github/poster.jpeg`,
+        date: "Past Event",
+        tag1: "Github",
+        tag2: "Version Control",
+        mode: "Offline",
+        eventType: "Seminar",
+        active: false,
+        formLink: "",
+        description: [`
     Our GitHub workshop at MIT brought together participants eager to explore collaborative coding and version control. 
     The event covered Git fundamentals, branching, and pull requests, offering hands-on exercises for real-time collaboration. 
     Participants delved into GitHub's issue tracking and project management tools, gaining insights into effective communication and workflow optimization. 
