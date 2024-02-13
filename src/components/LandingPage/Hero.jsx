@@ -37,7 +37,7 @@ const Hero = () => {
             <img
               className="w-1/2 h-full lg:max-w-3xl"
               src={`assets/heroImg.svg`}
-              alt="Catalogue-pana.svg"
+              alt="https://res.cloudinary.com/dx7uxfrne/image/upload/v1707825840/assets/heroImg_ihnysi.svg"
             />
           </div>
         </div>
