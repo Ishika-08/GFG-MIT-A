@@ -9,7 +9,7 @@ export default function TeamCard({ Array, Team }) {
         <h1 className="w-full uppercase text-center text-4xl font-bold gradient-to-text-with-greenAndWhite">
           {Team}
         </h1>
-        <div className="relative flex flex-wrap justify-center p-8 max-w-6xl">
+        <div className="relative flex flex-wrap justify-center p-2 lg:p-8 max-w-6xl">
           {Array.map((ele) => {
             return (
               <div
