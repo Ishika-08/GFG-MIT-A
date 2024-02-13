@@ -280,7 +280,7 @@ export const DesignArray = [
         instagram: "",
     },
     {
-        id: 3,
+        id: 2,
         name: "Prasad Dinnapurkar",
         designation: "Design and Content Team Member",
         photourl: "https://res.cloudinary.com/dx7uxfrne/image/upload/v1707825841/assets/TeamMembers/Design/Prasad-Dinnapurkar_kcljre.jpg",
@@ -290,7 +290,7 @@ export const DesignArray = [
         instagram: "https://www.instagram.com/prasaddinnapurkar_007/",
     },
     {
-        id: 4,
+        id: 3,
         name: "Pratapsingh Misal ",
         designation: "Design and Content Team Member",
         photourl: "https://res.cloudinary.com/dx7uxfrne/image/upload/v1707825842/assets/TeamMembers/Design/Pratap_jiqc79.jpg",
@@ -321,7 +321,7 @@ export const events = [
     projection advantages resolution son indulgence. Part sure on no
     long life am at ever. In songs above he as drawn to. Gay was
     outlived peculiar rendered led six.`,
-            `Difficulty on insensible reasonable in. From as went he they.
+      `Difficulty on insensible reasonable in. From as went he they.
     Preference themselves me as thoroughly partiality considered on in
     estimating. Middletons acceptance discovered projecting so is so
     or. In or attachment inquietude remarkably comparison at an. Is
@@ -353,13 +353,14 @@ export const events = [
     The workshop concluded with a vibrant Q&A session and networking opportunities, fostering a sense of community among attendees. 
     From beginners to seasoned developers, the workshop provided valuable skills and knowledge for leveraging GitHub in an ever-evolving coding landscape. 
     Stay tuned for more workshops as we continue to empower developers and nurture a culture of collaboration.
-    `    ],
-        lessons: [
-            `Getting Started with Git and GitHub`,
-            `Branching and Pull Requests`,
-            `Effective Collaboration Tools`,
-            `Best Practices and Tips`,
-            `Q&A`
-        ],
-    },
+    `,
+    ],
+    lessons: [
+      `Getting Started with Git and GitHub`,
+      `Branching and Pull Requests`,
+      `Effective Collaboration Tools`,
+      `Best Practices and Tips`,
+      `Q&A`,
+    ],
+  },
 ];
