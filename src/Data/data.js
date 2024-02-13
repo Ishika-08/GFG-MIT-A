@@ -39,8 +39,7 @@ export const TeamMembersArray = [
         id: 5,
         name: "Nilesh Mankape",
         designation: "Design Team Lead",
-        photourl:
-            "https://res.cloudinary.com/dx7uxfrne/image/upload/v1707833517/assets/TeamMembers/Design/Nilesh_wpovio.jpg",
+        photourl: "https://res.cloudinary.com/dx7uxfrne/image/upload/v1707839458/assets/TeamMembers/Design/nilesh_rb54in.jpg",
         linkedin: "",
         twitter: "",
         instagram: "",
@@ -274,7 +273,7 @@ export const DesignArray = [
         id: 1,
         name: "Nilesh Mankape",
         designation: "Design and Content Team Lead",
-        photourl: "https://res.cloudinary.com/dx7uxfrne/image/upload/v1707833517/assets/TeamMembers/Design/Nilesh_wpovio.jpg",
+        photourl: "https://res.cloudinary.com/dx7uxfrne/image/upload/v1707839458/assets/TeamMembers/Design/nilesh_rb54in.jpg",
         linkedin: "",
         twitter: "",
         instagram: "",
@@ -315,21 +314,15 @@ export const events = [
         formLink: "",
         description: [
             `
-    Advantage old had otherwise sincerity dependent additions. It in
-    adapted natural hastily is justice. Six draw you him full not mean
-    evil. Prepare garrets it expense windows shewing do an. She
-    projection advantages resolution son indulgence. Part sure on no
-    long life am at ever. In songs above he as drawn to. Gay was
-    outlived peculiar rendered led six.`,
-      `Difficulty on insensible reasonable in. From as went he they.
-    Preference themselves me as thoroughly partiality considered on in
-    estimating. Middletons acceptance discovered projecting so is so
-    or. In or attachment inquietude remarkably comparison at an. Is
-    surrounded prosperous stimulated am me discretion expression. But
-    truth being state can she china widow. Occasional preference fat
-    remarkably now projecting uncommonly dissimilar. Sentiments
-    projection particular companions interested do at my delightful.
-    Listening newspaper in advantage frankness to concluded unwilling.`,
+            Welcome to our React workshop! Whether you're new to web development or looking to enhance your skills, 
+            this workshop is designed to provide you with a comprehensive introduction to React, 
+            one of the most popular JavaScript libraries for building user interfaces. 
+            React's declarative and component-based approach makes it a powerful tool for creating dynamic and interactive web applications. 
+            Throughout this workshop, you'll learn the fundamentals of React, including components, state management
+            , props, and JSX syntax, as well as best practices for structuring and organizing your React applications.
+             By the end of the workshop, you'll have the knowledge and confidence to start building your own React projects and dive 
+             deeper into the world of modern web development. 
+            So, let's embark on this journey together and unlock the potential of React!`,
         ],
         lessons: [`Introduction to React`, `Setting Up a React Environment`, `JSX (JavaScript XML)`, `Components and Props`, `State and Hooks`, `Handling Events`, `Conditional Rendering`, `Forms in React`, `React Router`, `Managing State Across Components`, `Fetching Data`, ],
     },
