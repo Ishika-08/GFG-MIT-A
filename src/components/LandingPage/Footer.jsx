@@ -127,7 +127,7 @@ const Footer = () => {
           >
             <FaDiscord />
           </a>
-          <a href="https://www.linkedin.com/in/gfg-mit-student-chapter/" target="_blank" className="mr-4 text-xl neon-border">
+          <a href="https://www.linkedin.com/in/gfg-mita/" target="_blank" className="mr-4 text-xl neon-border">
             <FaLinkedinIn />
           </a>
         </div>
