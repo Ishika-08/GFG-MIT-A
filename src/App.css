@@ -1,6 +1,9 @@
 body {
   background-color: #01021e;
-  background-image: url("bg.png");
+}
+
+.bg-img {
+  background-image: url("https://res.cloudinary.com/dx7uxfrne/image/upload/v1707888062/ac64zxrngmlmkzbxde5r.png");
   z-index: -1000;
 }
 
@@ -85,20 +88,20 @@ body {
   z-index: 1000;
 }
 
-.box-shadow-for-Arrow{
+.box-shadow-for-Arrow {
   border: 1px solid rgba(64, 64, 64, 0.5);
   border-radius: 50%;
   box-shadow: 2px 2px 10px 5px rgba(187, 155, 255, 0.15);
-  transition: .4s;
+  transition: 0.4s;
   transform: translateX(0);
 }
 
-.box-shadow-for-Arrow:hover{
+.box-shadow-for-Arrow:hover {
   transform: translateX(10px);
 }
 
-.light-background-for-event-cards{
-  background-color: rgba(1, 2, 30,.2);
+.light-background-for-event-cards {
+  background-color: rgba(1, 2, 30, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 2px 2px 10px 5px rgba(187, 155, 255, 0.2);
 }

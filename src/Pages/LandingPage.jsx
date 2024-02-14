@@ -6,7 +6,7 @@ import Carasousel from "../components/LandingPage/Carasousel";
 
 export default function LandingPage() {
   return (
-    <div>
+    <div className="bg-img ">
       <Hero />
       <AboutUs />
       {/* <Carasousel /> */}

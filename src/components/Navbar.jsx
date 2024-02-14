@@ -21,7 +21,6 @@ const Navbar = () => {
   const navMenu = useRef(null);
 
   const callMenubtn = () => {
-    // console.log(navMenu.current.classList);
     navMenu.current.classList.toggle("hidden");
   };
 
@@ -72,11 +71,13 @@ const Navbar = () => {
           ref={navMenu}
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
+          <ul className=" flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
             {navLink.map((ele, index) => {
               return (
                 // <li>
                 <NavLink
+                  data-toggle="collapse"
+                  data-target="#navbarCollapse"
                   key={index}
                   to={ele.path}
                   className={(navClass) =>
@@ -84,6 +85,7 @@ const Navbar = () => {
                       ? " block py-2 px-3 text-[#4fff3f90]  rounded md:bg-transparent  md:p-0 "
                       : " block py-2 px-3 text-slate-50  rounded md:bg-transparent md:hover:text-[#fff] md:p-0 "
                   }
+                  onClick={callMenubtn}
                 >
                   {ele.display}
                 </NavLink>
