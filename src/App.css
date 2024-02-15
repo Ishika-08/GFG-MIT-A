@@ -79,8 +79,8 @@ body {
 }
 
 .hero-button-2:hover {
-  /* background: #fff; */
-  cursor: not-allowed;
+  background: #fff;
+  cursor: pointer;
 }
 
 .navbar-bg {

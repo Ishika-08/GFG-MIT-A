@@ -70,9 +70,7 @@ const EventPage = () => {
                 <div className="flex py-2">
                   <div>
                     <p className="font-semibold text-gray-700 text-sm">
-                      {
-                        data.active ? "Runs From" : "End at"
-                      }
+                      {data.active ? "Runs From" : "End at"}
                     </p>
                     <p className="font-semibold text-slate-200 text-base">
                       {data.date}
@@ -87,11 +85,15 @@ const EventPage = () => {
                     </p>
                   </div>
                 </div>
-                <button className={`px-2 py-1 mt-8 text-zinc-800 ${data.active ? "bg-[#4eff3f]" : "bg-red-600"} flex w-full items-center justify-center rounded`}>
-                  {
-                     data.active ? "Apply Now" : "Closed"
-                  }
-                </button>
+                <a
+                  href={data.formLink}
+                  target="_blank"
+                  className={`px-2 py-1 mt-8 text-zinc-800 ${
+                    data.active ? "bg-[#4eff3f]" : "bg-red-600"
+                  } flex w-full items-center justify-center rounded`}
+                >
+                  {data.active ? "Apply Now" : "Closed"}
+                </a>
               </div>
             </div>
           </div>

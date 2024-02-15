@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Hero = () => {
   const handleButtonClick = () => {
     window.location.href = "https://chat.whatsapp.com/FqjB1hqDzgWDFz1ZyA9SCJ";
@@ -27,9 +28,12 @@ const Hero = () => {
                   Join Our Community
                 </a>
 
-                <a className="opacity-50 ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase">
+                <Link
+                  to="/events"
+                  className="ml-2 hero-button-2 px-5 py-2 mt-6 text-sm tracking-wider uppercase"
+                >
                   Register For Event
-                </a>
+                </Link>
               </div>
             </div>
           </div>
