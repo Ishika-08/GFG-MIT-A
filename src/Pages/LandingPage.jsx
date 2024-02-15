@@ -11,7 +11,7 @@ export default function LandingPage() {
       <AboutUs />
       {/* <Carasousel /> */}
       <Team />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

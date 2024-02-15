@@ -5,6 +5,7 @@ import TeamPage from "../Pages/TeamPage";
 import AllEventsPage from "../Pages/AllEventsPage";
 import EventPage from "../Pages/EventPage";
 import Navbar from "../components/Navbar";
+import Footer from "../components/LandingPage/Footer";
 
 const Layout = () => {
   return (
@@ -18,6 +19,7 @@ const Layout = () => {
           <Route path="/events/:id" element={<EventPage />} />
         </Routes>
       </main>
+      <Footer/>
     </>
   );
 };

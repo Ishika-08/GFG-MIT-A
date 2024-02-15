@@ -302,6 +302,36 @@ export const DesignArray = [
 export const events = [
     {
         id: "event-1",
+        name: "DSA Introductory workshop",
+        fullName: "DSA Introductory workshop",
+        imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1708015809/assets/Events/DSA/Screenshot_2024-02-15_221827_sfqlww.png`,
+        date: "17th Feb",
+        tag1: "DSA",
+        tag2: "Coding Fundamentals",
+        mode: "Online",
+        eventType: "Webinar",
+        active: true,
+        formLink: "https://docs.google.com/forms/d/e/1FAIpQLSeT6ivdLiQIMRzFk1yahItaaINtx7fkg5EyN6DVbDEl-9JqfA/viewform",
+        description: [
+            `
+            Welcome to our Data Structures and Algorithms (DSA) workshop! 
+            Whether you're new to programming or seeking to enhance your problem-solving prowess, 
+            this workshop is meticulously designed to provide a comprehensive introduction to DSA,
+             the cornerstone of efficient software development. Data structures serve as the building blocks for organizing and managing data, 
+             while algorithms offer systematic methods for manipulating this data with precision and speed. Throughout this workshop, 
+             we'll explore a myriad of data structures including arrays, linked lists, stacks, queues, trees, and graphs, coupled with fundamental 
+             algorithms such as sorting, searching, and traversal techniques. Additionally, we'll delve into the intricate analysis of algorithmic 
+             time and space complexity, empowering you to assess their efficiency and scalability. By the culmination of this workshop, you'll 
+             emerge equipped with the knowledge and confidence to adeptly apply DSA concepts to real-world scenarios and tackle coding 
+             interviews with poise. 
+            Join us on this enlightening journey as we unlock the boundless potential of Data Structures and Algorithms together!
+           `,
+        ],
+        lessons: [`Introduction to Java`,`OOPs concepts`,`Analysis of Algorithms`,  `Data Structures :Arrays , Arraylists, Linked Lists,Stack Queues`,
+            `Sorting Algorithms:Bubble sort, Selection Sort, Insertion Sort`,`Searching Algorithms: Linear Search and Binary Search`,`Trees`,`Graphs` ],
+    },
+    {
+        id: "event-2",
         name: "React Js Workshop",
         fullName: "React Js Workshop + 1 Live Project Building",
         imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1707825839/assets/Events/React/react_q7wsec.jpg`,
@@ -327,7 +357,7 @@ export const events = [
         lessons: [`Introduction to React`, `Setting Up a React Environment`, `JSX (JavaScript XML)`, `Components and Props`, `State and Hooks`, `Handling Events`, `Conditional Rendering`, `Forms in React`, `React Router`, `Managing State Across Components`, `Fetching Data`, ],
     },
     {
-        id: "event-2",
+        id: "event-3",
         name: "Github Workshop",
         fullName: "Github Workshop",
         imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1707825838/assets/Events/Github/poster_la7kls.jpg`,
