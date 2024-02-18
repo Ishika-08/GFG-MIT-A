@@ -343,9 +343,9 @@ export const events = [
     tag2: "Coding Fundamentals",
     mode: "Online",
     eventType: "Webinar",
-    active: true,
+    active: false,
     formLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSeT6ivdLiQIMRzFk1yahItaaINtx7fkg5EyN6DVbDEl-9JqfA/viewform",
+      "",
     description: [
       `
             Welcome to our Data Structures and Algorithms (DSA) workshop! 
