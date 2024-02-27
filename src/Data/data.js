@@ -380,41 +380,35 @@ export const events = [
   },
   {
     id: "event-2",
-    name: "React Js Workshop",
-    fullName: "React Js Workshop + 1 Live Project Building",
-    imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1707825839/assets/Events/React/react_q7wsec.jpg`,
-    date: "Coming Soon",
-    tag1: "React",
+    name: "React Js + Github Workshop",
+    fullName: "React Js Workshop + 1 Live Project Building + Github",
+    imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1709003935/assets/Events/React/react_n6g3s3.jpg`,
+    date: "1-2 March",
+    tag1: "Github",
     tag2: "Web Development",
     mode: "Offline",
     eventType: "Webinar",
     active: true,
-    formLink: "",
+    formLink: "https://konfhub.com/gfg-mit-a-reactjs",
     description: [
       `
-            Welcome to our React workshop! Whether you're new to web development or looking to enhance your skills, 
-            this workshop is designed to provide you with a comprehensive introduction to React, 
-            one of the most popular JavaScript libraries for building user interfaces. 
-            React's declarative and component-based approach makes it a powerful tool for creating dynamic and interactive web applications. 
-            Throughout this workshop, you'll learn the fundamentals of React, including components, state management
-            , props, and JSX syntax, as well as best practices for structuring and organizing your React applications.
-             By the end of the workshop, you'll have the knowledge and confidence to start building your own React projects and dive 
-             deeper into the world of modern web development. 
-            So, let's embark on this journey together and unlock the potential of React!`,
+      Empower yourself with the in-demand skills of building dynamic and engaging web applications. 
+      This comprehensive 6-hour workshop equips you with the knowledge and practical experience needed to master React and conquer GitHub, 
+      regardless of your experience level. Gain React expertise by grasping core concepts like components, JSX, virtual DOM, event handling, 
+      and styling. Get hands-on practice by building your own React application throughout the workshop, 
+      solidifying your learning with expert guidance. Additionally, master GitHub with skills in version control, 
+      deployment strategies, and workflow optimization. 
+      Boost your confidence by showcasing your newly acquired skills and join a supportive community of developers.`
     ],
     lessons: [
-      `Introduction to React`,
-      `Setting Up a React Environment`,
-      `JSX (JavaScript XML)`,
-      `Components and Props`,
-      `State and Hooks`,
-      `Handling Events`,
-      `Conditional Rendering`,
-      `Forms in React`,
-      `React Router`,
-      `Managing State Across Components`,
-      `Fetching Data`,
+      `React Mastery`,
+      `Hands On react project`,
+      `Github Mastery`,
     ],
+    prizes: [
+      `Certificate of Participation`,
+      'Exciting GFG Goodies'
+    ]
   },
   {
     id: "event-3",

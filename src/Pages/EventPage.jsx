@@ -64,6 +64,22 @@ const EventPage = () => {
                   return <p className="pb-6">{ele}</p>;
                 })}
               </div>
+
+              {data.prizes && (
+                <div className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+                  <h2 className="text-2xl mb-4 font-semibold text-slate-50 leading-tight">
+                    Prizes
+                  </h2>
+
+                  {data.prizes.map((ele, index) => (
+                    <p key={index} className="pb-6">
+                      {ele}
+                    </p>
+                  ))}
+                </div>
+              )}
+
+
             </div>
             <div className="w-full lg:w-1/3 m-auto mt-12 max-w-screen-sm light-background-for-event-cards">
               <div className="p-4 ">
