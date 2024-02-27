@@ -379,7 +379,7 @@ export const events = [
     ],
   },
   {
-    id: "event-2",
+    id: "react-github",
     name: "React Js + Github Workshop",
     fullName: "React Js Workshop + 1 Live Project Building + Github",
     imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1709003935/assets/Events/React/react_n6g3s3.jpg`,
