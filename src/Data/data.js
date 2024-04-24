@@ -383,12 +383,12 @@ export const events = [
     "name": "Linux Basics Workshop",
     "fullName": "Linux Basics Workshop",
     "imgUrl": "https://res.cloudinary.com/dx7uxfrne/image/upload/v1710344414/assets/Events/linux-workshop_mzhoos.jpg",
-    "date": "16th March",
+    "date": "Past Event",
     "tag1": "Linux",
     "tag2": "Operating Systems",
     "mode": "Online",
     "eventType": "Workshop",
-    "active": true,
+    "active": false,
     "formLink": "",
     "description": [
       `
@@ -426,7 +426,7 @@ export const events = [
     name: "React Js + Github Workshop",
     fullName: "React Js Workshop + 1 Live Project Building + Github",
     imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1709003935/assets/Events/React/react_n6g3s3.jpg`,
-    date: "1-2 March",
+    date: "Past Event",
     tag1: "Github",
     tag2: "Web Development",
     mode: "Offline",
@@ -482,6 +482,30 @@ export const events = [
       `Effective Collaboration Tools`,
       `Best Practices and Tips`,
       `Q&A`,
+    ],
+  },
+   {
+    id: "event-5",
+    name: "Figma to Code",
+    fullName: "Figma to Code Workshop",
+    imgUrl: `https://cdn.sanity.io/images/599r6htc/localized/69ebd1b0811ea6d3444515a8a9cbaabdd52a04e8-1108x1108.png?w=1200&q=70&fit=max&auto=format`,
+    date: "27-04-2024",
+    tag1: "figma",
+    tag2: "design",
+    mode: "Offline",
+    eventType: "Seminar",
+    active: true,
+    formLink: "",
+    description: [
+      `
+    Join us for an insightful event where we delve into the seamless integration of Figma and code. Figma has revolutionized the way designers collaborate and iterate on designs, but what about translating those designs into functional code? In this event, we will explore the tools, techniques, and best practices for transforming Figma designs into clean, efficient code, bridging the gap between design and development
+    `,
+    ],
+    lessons: [
+      `Figma Basics: A quick overview for both designers and developers.`,
+      `Figma Plugins: Leveraging plugins to streamline design-to-code workflows`,
+      `Enhancing collaboration between designers and developers throughout the process`,
+      `Tips and tricks for optimizing the design-to-code process and maintaining code quality`
     ],
   },
 ];
