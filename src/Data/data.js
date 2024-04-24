@@ -486,8 +486,8 @@ export const events = [
   },
    {
     id: "event-5",
-    name: "Figma to Code",
-    fullName: "Figma to Code Workshop",
+    name: "UI UX Workshop",
+    fullName: "UI UX Workshop",
     imgUrl: `https://cdn.sanity.io/images/599r6htc/localized/69ebd1b0811ea6d3444515a8a9cbaabdd52a04e8-1108x1108.png?w=1200&q=70&fit=max&auto=format`,
     date: "27-04-2024",
     tag1: "figma",
