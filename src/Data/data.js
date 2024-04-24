@@ -502,10 +502,10 @@ export const events = [
     `,
     ],
     lessons: [
-      `Figma Basics: A quick overview for both designers and developers.`,
-      `Figma Plugins: Leveraging plugins to streamline design-to-code workflows`,
-      `Enhancing collaboration between designers and developers throughout the process`,
-      `Tips and tricks for optimizing the design-to-code process and maintaining code quality`
+      `⁠Introduction to UI/UX Design`,
+      `Understanding User Needs`,
+      `UI Design Fundamentals`,
+      `Wireframing and Prototyping`
     ],
   },
 ];
