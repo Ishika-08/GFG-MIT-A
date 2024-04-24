@@ -34,7 +34,7 @@
       if (data.active) {
         const script = document.createElement('script');
         script.src = 'https://widget.konfhub.com/widget.js';
-        script.setAttribute('button_id', "btn_12faef423ca8");
+        script.setAttribute('button_id', "btn_5837499c4b32");
         const applyNowLink = document.getElementById('apply-now-link');
         applyNowLink.removeChild(applyNowLink.firstChild);
         applyNowLink.appendChild(script);
