@@ -495,7 +495,7 @@ export const events = [
     mode: "Offline",
     eventType: "Seminar",
     active: true,
-    formLink: "",
+    formLink: "#",
     description: [
       `
     Join us for an insightful event where we delve into the seamless integration of Figma and code. Figma has revolutionized the way designers collaborate and iterate on designs, but what about translating those designs into functional code? In this event, we will explore the tools, techniques, and best practices for transforming Figma designs into clean, efficient code, bridging the gap between design and development
