@@ -485,11 +485,11 @@ export const events = [
     ],
   },
    {
-    id: "event-5",
+    id: "ui-ux",
     name: "UI UX Workshop",
     fullName: "UI UX Workshop",
     imgUrl: `https://cdn.sanity.io/images/599r6htc/localized/69ebd1b0811ea6d3444515a8a9cbaabdd52a04e8-1108x1108.png?w=1200&q=70&fit=max&auto=format`,
-    date: "27-04-2024",
+    date: "10:00 Am 27-04-2024",
     tag1: "figma",
     tag2: "design",
     mode: "Offline",
