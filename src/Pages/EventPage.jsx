@@ -101,7 +101,7 @@
                   <div className="flex py-2">
                     <div>
                       <p className="font-semibold text-gray-700 text-sm">
-                        {data.active ? "Runs From" : "End at"}
+                        {data.active ? "Starts on" : "End at"}
                       </p>
                       <p className="font-semibold text-slate-200 text-base">
                         {data.date}
