@@ -488,7 +488,7 @@ export const events = [
     id: "ui-ux",
     name: "UI UX Workshop",
     fullName: "UI UX Workshop",
-    imgUrl: `https://cdn.sanity.io/images/599r6htc/localized/69ebd1b0811ea6d3444515a8a9cbaabdd52a04e8-1108x1108.png?w=1200&q=70&fit=max&auto=format`,
+    imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1714066530/assets/Events/uiux_kzf6kw.jpg`,
     date: "27-04-2024",
     tag1: "figma",
     tag2: "design",
