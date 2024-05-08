@@ -489,12 +489,12 @@ export const events = [
     name: "UI UX Workshop",
     fullName: "UI UX Workshop",
     imgUrl: `https://res.cloudinary.com/dx7uxfrne/image/upload/v1714066530/assets/Events/uiux_kzf6kw.jpg`,
-    date: "27-04-2024",
+    date: "Past Event",
     tag1: "figma",
     tag2: "design",
     mode: "Offline",
     eventType: "Seminar",
-    active: true,
+    active: false,
     formLink: "#",
     description: [
       `
